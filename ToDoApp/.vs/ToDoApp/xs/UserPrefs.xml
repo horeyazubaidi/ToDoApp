@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{1E89EF49-DDDA-4AC2-A9DE-E6118C5AE97F}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ToDoApp/Controllers/ToDoController.cs">
+    <Files>
+      <File FileName="../../../../usr/local/share/dotnet/sdk/5.0.401/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.Sdk.DefaultItems.Shared.targets" Line="84" Column="60" />
+      <File FileName="ToDoApp/appsettings.Development.json" Line="1" Column="1" />
+      <File FileName="ToDoApp/Models/ToDo.cs" Line="1" Column="1" />
+      <File FileName="ToDoApp/Models/Configurations/ToDoConfigurations.cs" Line="8" Column="6" />
+      <File FileName="ToDoApp/Controllers/ToDoController.cs" Line="21" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ToDoApp" expanded="True">
+            <Node name="ToDoApp" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True">
+                <Node name="ToDoController.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True">
+                <Node name="Configurations" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ToDoApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

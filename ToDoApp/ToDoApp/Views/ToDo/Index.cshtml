@@ -1,0 +1,59 @@
+﻿@model IEnumerable<ToDoApp.Models.ToDo>
+
+<div class="container p-3">
+    <div class="row pt-4">
+        <div class="col-6">
+            <h2 class="text-primary">to do list</h2>
+        </div>
+        <div class="col-6">
+            <a asp-controller="ToDo" asp-action="Create" class="btn btn-primary">create new task</a>
+        </div>
+    </div>
+    <br />
+    @if(Model.Count() > 0)
+            {
+                <table class="table table-boardered table-striped" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th>
+                                Task Name
+                            </th>
+                            <th>
+                                body
+                            </th>
+                            <th>
+                                created On
+                            </th>
+                            <th>
+                                is complete
+                            </th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach(var todo in Model)
+                        {
+                        <tr>
+                            <td width="20%">@todo.name</td>
+                            <td width="20%">@todo.body</td>
+                            <td width="20%">@todo.createdOn </td>
+                            <td width="20%">@todo.status</td>
+                            <td width="50%">
+                                <div class="w-100 btn-group" role="group">
+                                    <a asp-controller="ToDo" asp-action="Update" asp-route-id="@todo.id" class="btn btn-primary mx-1">Update</a>
+                                    <a asp-controller="ToDo" asp-action="Delete" asp-route-id="@todo.id" class="btn btn-danger mx-1">Delete</a>
+                                </div>
+                                
+                            </td>
+                        </tr>
+                        }
+                    </tbody>
+                </table>
+
+
+            }
+            else {
+        <p>No Tasks are yet created</p>
+    }
+
+</div>
